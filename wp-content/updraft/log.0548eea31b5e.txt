@@ -1,0 +1,588 @@
+0000.002 (0) Opened log file at time: Tue, 21 May 2024 18:04:50 +0000 on http://localhost/ecom
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.23.25 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT LAPTOP-NEOCH120 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 92.1M | 94M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 27691.9 MB
+0000.024 (0) Deleting old log file: log.367bc74b58f2.txt
+0000.030 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.683 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.691 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-05-21 18:04:51
+0000.697 (0) Semaphore (fd, wp_options) reset to 1
+0000.702 (0) Set semaphore last lock (fd) time to 2024-05-21 18:04:51
+0000.705 (0) Semaphore lock (fd) complete
+0000.725 (0) Backup run: resumption=0, nonce=0548eea31b5e, file_nonce=0548eea31b5e begun at=1716314690 (1s ago), job type=backup, label=Automatic backup before update caused by entities (wpcore)
+0000.732 (0) A resumption will be scheduled for the cloud backup stage
+0000.736 (0) Scheduling a resumption (1) after 300 seconds (1716314991) in case this run gets aborted
+0000.752 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 414, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0000.758 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1968, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0000.764 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3588, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0000.767 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3588, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0000.856 (0) Checking if we have a zip executable available
+0000.863 (0) Creation of backups of directories: beginning
+0000.873 (0) No backup of plugins: excluded by user's options
+0000.877 (0) No backup of themes: excluded by user's options
+0000.879 (0) No backup of uploads: excluded by user's options
+0000.889 (0) Beginning creation of dump of wpcore (split every: 400 MB)
+0000.897 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3381, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0002.683 (0) Total entities for the zip file: 255 directories, 2557 files (0 skipped as non-modified), 50.2 MB
+0002.758 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.822 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.890 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.951 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.021 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.086 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.161 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.226 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.291 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 900 files added (on-disk size: 0 KB)
+0003.360 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0003.365 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.6 MB, 2557 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0045.947 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1100 files added (on-disk size: 2808.5 KB)
+0045.994 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1200 files added (on-disk size: 2808.5 KB)
+0046.036 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1300 files added (on-disk size: 2808.5 KB)
+0046.071 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1400 files added (on-disk size: 2808.5 KB)
+0046.124 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1500 files added (on-disk size: 2808.5 KB)
+0046.164 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1600 files added (on-disk size: 2808.5 KB)
+0046.210 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1700 files added (on-disk size: 2808.5 KB)
+0046.257 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1800 files added (on-disk size: 2808.5 KB)
+0046.272 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 2557 files batched, 828 (1829) added so far); re-opening (prior size: 2808.5 KB)
+0068.841 (0) A useful amount of data was added after this amount of zip processing: 23.3 s (normalised: 23.3 s, rate: 1098.7 KB/s)
+0068.923 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 1900 files added (on-disk size: 8694.8 KB)
+0068.977 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2000 files added (on-disk size: 8694.8 KB)
+0069.019 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2100 files added (on-disk size: 8694.8 KB)
+0069.061 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2200 files added (on-disk size: 8694.8 KB)
+0069.122 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2300 files added (on-disk size: 8694.8 KB)
+0069.177 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2400 files added (on-disk size: 8694.8 KB)
+0069.238 (0) Zip: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.tmp: 2500 files added (on-disk size: 8694.8 KB)
+0094.300 (0) Creating zip file manifest (backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip.list-temp.tmp)
+0094.318 (0) Successfully created zip file manifest (size: 133544)
+0094.497 (0) Created wpcore zip (0) - 13016.3 KB in 93.6 s (139.1 KB/s) (sha1: c8ffe3daaaf02a852dc5a6cae292f371e8ba1557, sha256: da3c79725d50b5918f2d8aa807869473fbafcb2863839dc7ae3c2bf08def4ee0)
+0094.528 (0) Cloud backup selection (1/3): googledrive with instance (1/1)
+0094.531 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_instance is deprecated (line 564, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0094.535 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-dd00244cbdd3e42d15ab9ce0bd1e9c21)
+0106.974 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 249, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0106.977 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 254, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0106.981 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 261, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0106.984 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 271, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0106.987 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 24, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0106.990 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0106.993 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 32, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0106.996 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 45, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0106.999 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 16, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0107.002 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0107.006 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0113.761 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googledrive::$root_id is deprecated (line 106, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\googledrive.php)
+0120.548 (0) Google Drive: quota usage: used=203.3 MB, total=15360 MB, available=15156.7 MB
+0120.553 (0) Google Drive: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip: Attempting to upload to Google Drive (into folder id: 1HKiXqTQzhibupQ-xYJfReVxOu6sKpO2G)
+0120.556 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0175.045 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): OpenSSL SSL_read: Connection was reset, errno 10054 (line: 117, file: D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0175.048 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0180.333 (0) Googledrive chunked upload: 7.9 % uploaded (1048576)
+0185.134 (0) Googledrive chunked upload: 15.7 % uploaded (2097152)
+0187.983 (0) Googledrive chunked upload: 23.6 % uploaded (3145728)
+0191.265 (0) Googledrive chunked upload: 31.5 % uploaded (4194304)
+0194.551 (0) Googledrive chunked upload: 39.3 % uploaded (5242880)
+0198.970 (0) Googledrive chunked upload: 47.2 % uploaded (6291456)
+0204.209 (0) Googledrive chunked upload: 55.1 % uploaded (7340032)
+0207.787 (0) Googledrive chunked upload: 62.9 % uploaded (8388608)
+0210.296 (0) Googledrive chunked upload: 70.8 % uploaded (9437184 - increasing chunk size to 2048 KB - memory usage: 96.1 / 100)
+0214.471 (0) Googledrive chunked upload: 86.5 % uploaded (11534336)
+0220.635 (0) Googledrive chunked upload: 100 % uploaded (11534336)
+0220.644 (0) Google Drive: OK: Archive backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip uploaded in 100.09 seconds
+0220.648 (0) Recording as successfully uploaded: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip (googledrive, more services to follow)
+0220.657 (0) Cloud backup selection (2/3): ftp with instance (1/1)
+0220.661 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-fdced1f57f6cb1a11f74fbe138cbf736)
+0220.664 (0) Error message: No FTP settings were found
+0220.667 (0) An error condition has occurred for the first time during this job
+0220.670 (0) Cloud backup selection (3/3): email with instance (1/1)
+0220.672 (0) Beginning dispatch of backup to remote (email)
+0220.675 (0) Email: No email addresses were configured to send to
+0220.688 (0) No backup of others: excluded by user's options
+0220.691 (0) No backup of more: excluded by user's options
+0220.704 (0) Saving backup status to database (elements: 2)
+0220.713 (0) Beginning creation of database dump (WordPress DB)
+0220.717 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0220.869 (0) Table wp_options: Total expected rows (via COUNT): 819
+0220.948 (0) Table wp_options: Rows added in this batch (next record: 17269): 817 (uncompressed bytes in this segment=1841062) in 0.17 seconds
+0220.966 (0) Table wp_options: finishing file(s) (2, 308.7 KB)
+0221.004 (0) Table wp_users: Total expected rows (via COUNT): 1
+0221.007 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.015 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1378) in 0.04 seconds
+0221.032 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0221.078 (0) Table wp_usermeta: Total expected rows (via COUNT): 36
+0221.080 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.089 (0) Table wp_usermeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=6785) in 0.05 seconds
+0221.108 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0221.158 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 3
+0221.161 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.171 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 695): 3 (uncompressed bytes in this segment=2995) in 0.05 seconds
+0221.189 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0221.230 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0221.238 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.04 seconds
+0221.254 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0221.296 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0221.298 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.305 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=777) in 0.04 seconds
+0221.318 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0221.363 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 7
+0221.367 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.373 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 2062): 7 (uncompressed bytes in this segment=1543) in 0.05 seconds
+0221.389 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0221.447 (0) Table wp_commentmeta: Total expected rows (via COUNT): 60
+0221.450 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.459 (0) Table wp_commentmeta: Rows added in this batch (next record: 60): 60 (uncompressed bytes in this segment=3191) in 0.05 seconds
+0221.476 (0) Table wp_commentmeta: finishing file(s) (2, 0.8 KB)
+0221.527 (0) Table wp_comments: Total expected rows (via COUNT): 85
+0221.530 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.540 (0) Table wp_comments: Rows added in this batch (next record: 86): 85 (uncompressed bytes in this segment=44539) in 0.05 seconds
+0221.555 (0) Table wp_comments: finishing file(s) (2, 2.4 KB)
+0221.606 (0) Table wp_links: Total expected rows (via COUNT): 0
+0221.615 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.04 seconds
+0221.630 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0221.811 (0) Table wp_postmeta: Total expected rows (approximate): 12684
+0222.202 (0) Table wp_postmeta: Rows added in this batch (next record: 15138): 11385 (uncompressed bytes in this segment=9147233) in 0.56 seconds
+0222.222 (0) Table wp_postmeta: finishing file(s) (2, 259.1 KB)
+0222.911 (0) Table wp_posts: Total expected rows (approximate): 1406
+0225.067 (0) Table wp_posts: Rows added in this batch (next record: 1626): 1350 (uncompressed bytes in this segment=80790713) in 2.83 seconds
+0225.086 (0) Table wp_posts: finishing file(s) (2, 3429.8 KB)
+0225.132 (0) Table wp_term_relationships: Total expected rows (approximate): 993
+0225.151 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 970 (uncompressed bytes in this segment=15211) in 0.05 seconds
+0225.169 (0) Table wp_term_relationships: finishing file(s) (2, 2.7 KB)
+0225.223 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 89
+0225.226 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.237 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 89): 89 (uncompressed bytes in this segment=4148) in 0.06 seconds
+0225.257 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0225.305 (0) Table wp_termmeta: Total expected rows (via COUNT): 127
+0225.308 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.318 (0) Table wp_termmeta: Rows added in this batch (next record: 127): 127 (uncompressed bytes in this segment=40370) in 0.05 seconds
+0225.339 (0) Table wp_termmeta: finishing file(s) (2, 2.1 KB)
+0225.382 (0) Table wp_terms: Total expected rows (via COUNT): 89
+0225.387 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.396 (0) Table wp_terms: Rows added in this batch (next record: 89): 89 (uncompressed bytes in this segment=3719) in 0.05 seconds
+0225.414 (0) Table wp_terms: finishing file(s) (2, 1.4 KB)
+0225.465 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 32
+0225.473 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 32 (uncompressed bytes in this segment=927) in 0.04 seconds
+0225.489 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0225.536 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 159
+0225.538 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.550 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 1369): 159 (uncompressed bytes in this segment=16705) in 0.05 seconds
+0225.565 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.8 KB)
+0225.614 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0225.622 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.04 seconds
+0225.639 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0225.683 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0225.686 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.693 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.04 seconds
+0225.709 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0225.765 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0225.772 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.05 seconds
+0225.789 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0225.851 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0225.862 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.06 seconds
+0225.883 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0225.941 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0225.945 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0225.955 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=981) in 0.05 seconds
+0225.971 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0226.023 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0226.031 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2289) in 0.04 seconds
+0226.048 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0226.101 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0226.106 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1264) in 0.04 seconds
+0226.122 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0226.174 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0226.178 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.04 seconds
+0226.195 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0226.246 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0226.251 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.04 seconds
+0226.267 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0226.314 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0226.320 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1061) in 0.04 seconds
+0226.336 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0226.392 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0226.395 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0226.407 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91266) in 0.05 seconds
+0226.427 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0226.477 (0) Table wp_revslider_css_bkp: Total expected rows (via COUNT): 47
+0226.480 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0226.488 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15313) in 0.04 seconds
+0226.506 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0226.557 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0226.566 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.04 seconds
+0226.582 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0226.631 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0226.636 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.04 seconds
+0226.653 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0226.702 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0226.706 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.04 seconds
+0226.724 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.4 KB)
+0226.786 (0) Table wp_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0226.791 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.04 seconds
+0226.810 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0226.859 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 2
+0226.862 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0226.873 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=23645) in 0.05 seconds
+0226.897 (0) Table wp_revslider_sliders: finishing file(s) (2, 4 KB)
+0226.956 (0) Table wp_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0226.964 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=797) in 0.05 seconds
+0226.982 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0227.035 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 6
+0227.038 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0227.048 (0) Table wp_revslider_slides: Rows added in this batch (next record: 11): 6 (uncompressed bytes in this segment=63018) in 0.05 seconds
+0227.068 (0) Table wp_revslider_slides: finishing file(s) (2, 3.2 KB)
+0227.126 (0) Table wp_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0227.135 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.05 seconds
+0227.154 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0227.202 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 2
+0227.206 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0227.215 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=897) in 0.05 seconds
+0227.235 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0227.286 (0) Table wp_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0227.292 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=738) in 0.04 seconds
+0227.311 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.4 KB)
+0227.360 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 128
+0227.363 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0227.375 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 3240): 128 (uncompressed bytes in this segment=25913) in 0.05 seconds
+0227.395 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4.6 KB)
+0227.450 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 98
+0227.452 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0227.466 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 103): 98 (uncompressed bytes in this segment=47219) in 0.06 seconds
+0227.487 (0) Table wp_wc_admin_notes: finishing file(s) (2, 9.7 KB)
+0227.540 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0227.548 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.04 seconds
+0227.564 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0227.621 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0227.625 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.04 seconds
+0227.642 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0227.689 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0227.694 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.04 seconds
+0227.709 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0227.761 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0227.766 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.04 seconds
+0227.782 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0227.836 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0227.841 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.04 seconds
+0227.855 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0227.904 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0227.912 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.04 seconds
+0227.928 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0227.980 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 625
+0227.991 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 625 (uncompressed bytes in this segment=23721) in 0.04 seconds
+0228.010 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 2.6 KB)
+0228.059 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0228.062 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0228.071 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=934) in 0.04 seconds
+0228.085 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0228.130 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0228.136 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.03 seconds
+0228.151 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0228.197 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0228.202 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.04 seconds
+0228.218 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0228.275 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0228.279 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.05 seconds
+0228.296 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0228.345 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 7
+0228.348 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0228.357 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1400) in 0.05 seconds
+0228.371 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0228.424 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0228.431 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.05 seconds
+0228.444 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0228.496 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0228.500 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.04 seconds
+0228.516 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0228.561 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0228.565 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.03 seconds
+0228.581 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0228.633 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0228.638 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.04 seconds
+0228.651 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0228.699 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 0
+0228.704 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.04 seconds
+0228.724 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.4 KB)
+0228.773 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0228.778 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.04 seconds
+0228.794 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0228.835 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 3
+0228.839 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0228.849 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=931) in 0.05 seconds
+0228.864 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0228.913 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0228.916 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0228.921 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=724) in 0.04 seconds
+0228.945 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0228.998 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0229.006 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.04 seconds
+0229.024 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0229.070 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0229.075 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.04 seconds
+0229.090 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0229.138 (0) Table wp_yith_wcwl: Total expected rows (via COUNT): 17
+0229.141 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0229.149 (0) Table wp_yith_wcwl: Rows added in this batch (next record: 18): 17 (uncompressed bytes in this segment=1953) in 0.04 seconds
+0229.167 (0) Table wp_yith_wcwl: finishing file(s) (2, 0.7 KB)
+0229.211 (0) Table wp_yith_wcwl_lists: Total expected rows (via COUNT): 3
+0229.214 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0229.220 (0) Table wp_yith_wcwl_lists: Rows added in this batch (next record: 7): 3 (uncompressed bytes in this segment=1282) in 0.04 seconds
+0229.234 (0) Table wp_yith_wcwl_lists: finishing file(s) (2, 0.6 KB)
+0229.237 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\xamp\htdocs\ecom/wp-content/updraft/backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz (line 1922, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+0229.243 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_options.table.tmpr17270.gz (1/66/fopen): adding to final database dump
+0229.272 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_options.table.gz (2/66/fopen): adding to final database dump
+0229.275 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_users.table.tmpr2.gz (3/66/fopen): adding to final database dump
+0229.292 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_users.table.gz (4/66/fopen): adding to final database dump
+0229.295 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_usermeta.table.tmpr37.gz (5/66/fopen): adding to final database dump
+0229.311 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_usermeta.table.gz (6/66/fopen): adding to final database dump
+0229.314 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_actions.table.tmpr696.gz (7/66/fopen): adding to final database dump
+0229.326 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_actions.table.gz (8/66/fopen): adding to final database dump
+0229.330 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/66/fopen): adding to final database dump
+0229.343 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_claims.table.gz (10/66/fopen): adding to final database dump
+0229.346 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/66/fopen): adding to final database dump
+0229.361 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_groups.table.gz (12/66/fopen): adding to final database dump
+0229.365 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_logs.table.tmpr2063.gz (13/66/fopen): adding to final database dump
+0229.379 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_actionscheduler_logs.table.gz (14/66/fopen): adding to final database dump
+0229.382 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_commentmeta.table.tmpr61.gz (15/66/fopen): adding to final database dump
+0229.395 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_commentmeta.table.gz (16/66/fopen): adding to final database dump
+0229.398 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_comments.table.tmpr87.gz (17/66/fopen): adding to final database dump
+0229.411 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_comments.table.gz (18/66/fopen): adding to final database dump
+0229.415 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_links.table.tmpr0.gz (19/66/fopen): adding to final database dump
+0229.428 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_links.table.gz (20/66/fopen): adding to final database dump
+0229.432 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_postmeta.table.tmpr15139.gz (21/66/fopen): adding to final database dump
+0229.455 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_postmeta.table.gz (22/66/fopen): adding to final database dump
+0229.459 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_posts.table.tmpr1627.gz (23/66/fopen): adding to final database dump
+0229.626 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_posts.table.gz (24/66/fopen): adding to final database dump
+0229.629 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_term_relationships.table.tmpr100001.gz (25/66/fopen): adding to final database dump
+0229.646 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_term_relationships.table.gz (26/66/fopen): adding to final database dump
+0229.649 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_term_taxonomy.table.tmpr90.gz (27/66/fopen): adding to final database dump
+0229.662 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_term_taxonomy.table.gz (28/66/fopen): adding to final database dump
+0229.665 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_termmeta.table.tmpr128.gz (29/66/fopen): adding to final database dump
+0229.679 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_termmeta.table.gz (30/66/fopen): adding to final database dump
+0229.682 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_terms.table.tmpr90.gz (31/66/fopen): adding to final database dump
+0229.697 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_terms.table.gz (32/66/fopen): adding to final database dump
+0229.701 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/66/fopen): adding to final database dump
+0229.716 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_category_lookup.table.gz (34/66/fopen): adding to final database dump
+0229.719 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_meta_lookup.table.tmpr1370.gz (35/66/fopen): adding to final database dump
+0229.737 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_meta_lookup.table.gz (36/66/fopen): adding to final database dump
+0229.740 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/66/fopen): adding to final database dump
+0229.753 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_reserved_stock.table.gz (38/66/fopen): adding to final database dump
+0229.756 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/66/fopen): adding to final database dump
+0229.770 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_tax_rate_classes.table.gz (40/66/fopen): adding to final database dump
+0229.774 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/66/fopen): adding to final database dump
+0229.785 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_order_itemmeta.table.gz (42/66/fopen): adding to final database dump
+0229.788 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/66/fopen): adding to final database dump
+0229.803 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/66/fopen): adding to final database dump
+0229.806 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_events.table.tmpr3.gz (45/66/fopen): adding to final database dump
+0229.820 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_events.table.gz (46/66/fopen): adding to final database dump
+0229.823 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions.table.tmpr0.gz (47/66/fopen): adding to final database dump
+0229.836 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions.table.gz (48/66/fopen): adding to final database dump
+0229.839 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (49/66/fopen): adding to final database dump
+0229.854 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions_actions_log.table.gz (50/66/fopen): adding to final database dump
+0229.858 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions_values.table.tmpr0.gz (51/66/fopen): adding to final database dump
+0229.873 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_e_submissions_values.table.gz (52/66/fopen): adding to final database dump
+0229.875 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_litespeed_url.table.tmpr0.gz (53/66/fopen): adding to final database dump
+0229.893 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_litespeed_url.table.gz (54/66/fopen): adding to final database dump
+0229.897 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_litespeed_url_file.table.tmpr0.gz (55/66/fopen): adding to final database dump
+0229.912 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_litespeed_url_file.table.gz (56/66/fopen): adding to final database dump
+0229.915 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_css.table.tmpr110.gz (57/66/fopen): adding to final database dump
+0229.928 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_css.table.gz (58/66/fopen): adding to final database dump
+0229.931 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_css_bkp.table.tmpr48.gz (59/66/fopen): adding to final database dump
+0229.944 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_css_bkp.table.gz (60/66/fopen): adding to final database dump
+0229.947 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_layer_animations.table.tmpr0.gz (61/66/fopen): adding to final database dump
+0229.963 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_layer_animations.table.gz (62/66/fopen): adding to final database dump
+0229.968 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (63/66/fopen): adding to final database dump
+0229.987 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_layer_animations_bkp.table.gz (64/66/fopen): adding to final database dump
+0229.990 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_navigations.table.tmpr0.gz (65/66/fopen): adding to final database dump
+0230.003 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_navigations.table.gz (66/66/fopen): adding to final database dump
+0230.007 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (67/66/fopen): adding to final database dump
+0230.019 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_navigations_bkp.table.gz (68/66/fopen): adding to final database dump
+0230.022 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_sliders.table.tmpr4.gz (69/66/fopen): adding to final database dump
+0230.039 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_sliders.table.gz (70/66/fopen): adding to final database dump
+0230.042 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_sliders_bkp.table.tmpr0.gz (71/66/fopen): adding to final database dump
+0230.056 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_sliders_bkp.table.gz (72/66/fopen): adding to final database dump
+0230.060 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_slides.table.tmpr12.gz (73/66/fopen): adding to final database dump
+0230.079 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_slides.table.gz (74/66/fopen): adding to final database dump
+0230.082 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_slides_bkp.table.tmpr0.gz (75/66/fopen): adding to final database dump
+0230.096 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_slides_bkp.table.gz (76/66/fopen): adding to final database dump
+0230.100 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_static_slides.table.tmpr4.gz (77/66/fopen): adding to final database dump
+0230.114 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_static_slides.table.gz (78/66/fopen): adding to final database dump
+0230.117 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_static_slides_bkp.table.tmpr0.gz (79/66/fopen): adding to final database dump
+0230.131 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_revslider_static_slides_bkp.table.gz (80/66/fopen): adding to final database dump
+0230.134 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_admin_note_actions.table.tmpr3241.gz (81/66/fopen): adding to final database dump
+0230.149 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_admin_note_actions.table.gz (82/66/fopen): adding to final database dump
+0230.153 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_admin_notes.table.tmpr104.gz (83/66/fopen): adding to final database dump
+0230.166 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_admin_notes.table.gz (84/66/fopen): adding to final database dump
+0230.169 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_customer_lookup.table.tmpr0.gz (85/66/fopen): adding to final database dump
+0230.181 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_customer_lookup.table.gz (86/66/fopen): adding to final database dump
+0230.184 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_download_log.table.tmpr0.gz (87/66/fopen): adding to final database dump
+0230.196 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_download_log.table.gz (88/66/fopen): adding to final database dump
+0230.200 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (89/66/fopen): adding to final database dump
+0230.215 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_coupon_lookup.table.gz (90/66/fopen): adding to final database dump
+0230.220 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (91/66/fopen): adding to final database dump
+0230.237 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_product_lookup.table.gz (92/66/fopen): adding to final database dump
+0230.241 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_stats.table.tmpr0.gz (93/66/fopen): adding to final database dump
+0230.257 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_stats.table.gz (94/66/fopen): adding to final database dump
+0230.261 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (95/66/fopen): adding to final database dump
+0230.276 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_order_tax_lookup.table.gz (96/66/fopen): adding to final database dump
+0230.279 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (97/66/fopen): adding to final database dump
+0230.293 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_attributes_lookup.table.gz (98/66/fopen): adding to final database dump
+0230.297 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_download_directories.table.tmpr3.gz (99/66/fopen): adding to final database dump
+0230.318 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_product_download_directories.table.gz (100/66/fopen): adding to final database dump
+0230.321 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_rate_limits.table.tmpr0.gz (101/66/fopen): adding to final database dump
+0230.336 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_rate_limits.table.gz (102/66/fopen): adding to final database dump
+0230.339 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_webhooks.table.tmpr0.gz (103/66/fopen): adding to final database dump
+0230.352 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_wc_webhooks.table.gz (104/66/fopen): adding to final database dump
+0230.355 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (105/66/fopen): adding to final database dump
+0230.371 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_api_keys.table.gz (106/66/fopen): adding to final database dump
+0230.375 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr8.gz (107/66/fopen): adding to final database dump
+0230.393 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_attribute_taxonomies.table.gz (108/66/fopen): adding to final database dump
+0230.397 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (109/66/fopen): adding to final database dump
+0230.412 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (110/66/fopen): adding to final database dump
+0230.415 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_log.table.tmpr0.gz (111/66/fopen): adding to final database dump
+0230.430 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_log.table.gz (112/66/fopen): adding to final database dump
+0230.433 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_order_items.table.tmpr0.gz (113/66/fopen): adding to final database dump
+0230.445 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_order_items.table.gz (114/66/fopen): adding to final database dump
+0230.448 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (115/66/fopen): adding to final database dump
+0230.460 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_payment_tokens.table.gz (116/66/fopen): adding to final database dump
+0230.463 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_sessions.table.tmpr0.gz (117/66/fopen): adding to final database dump
+0230.479 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_sessions.table.gz (118/66/fopen): adding to final database dump
+0230.482 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (119/66/fopen): adding to final database dump
+0230.495 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zone_locations.table.gz (120/66/fopen): adding to final database dump
+0230.499 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr4.gz (121/66/fopen): adding to final database dump
+0230.514 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zone_methods.table.gz (122/66/fopen): adding to final database dump
+0230.517 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (123/66/fopen): adding to final database dump
+0230.532 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_shipping_zones.table.gz (124/66/fopen): adding to final database dump
+0230.535 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (125/66/fopen): adding to final database dump
+0230.551 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_tax_rate_locations.table.gz (126/66/fopen): adding to final database dump
+0230.555 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (127/66/fopen): adding to final database dump
+0230.571 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_woocommerce_tax_rates.table.gz (128/66/fopen): adding to final database dump
+0230.574 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_yith_wcwl.table.tmpr19.gz (129/66/fopen): adding to final database dump
+0230.589 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_yith_wcwl.table.gz (130/66/fopen): adding to final database dump
+0230.591 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_yith_wcwl_lists.table.tmpr8.gz (131/66/fopen): adding to final database dump
+0230.603 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db-table-wp_yith_wcwl_lists.table.gz (132/66/fopen): adding to final database dump
+0230.696 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz: finished writing out complete database file (4064.9 KB)
+0230.806 (0) Total database tables backed up: 66 (backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz, size: 4162604, sha1: 4845852002871a395984b656f870f5f9b2f2d883, sha256: 037986d0c73e76923a81024459ae3cb9f8064a080a60c57b290bb3b2058fb0f6)
+0230.823 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0230.826 (0) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0230.828 (0) Saving backup history. Total backup size: 16.7 MB
+0230.836 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0230.844 (0) Cloud backup selection (1/3): googledrive with instance (1/1)
+0230.848 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-dd00244cbdd3e42d15ab9ce0bd1e9c21)
+0230.851 (0) Already uploaded to googledrive / s-dd00244cbdd3e42d15ab9ce0bd1e9c21: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip
+0230.851 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0232.382 (0) Google Drive: quota usage: used=216 MB, total=15360 MB, available=15144 MB
+0232.385 (0) Google Drive: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz: Attempting to upload to Google Drive (into folder id: 1HKiXqTQzhibupQ-xYJfReVxOu6sKpO2G)
+0232.388 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0238.743 (0) Googledrive chunked upload: 25.2 % uploaded (1048576)
+0242.064 (0) Googledrive chunked upload: 50.4 % uploaded (2097152)
+0244.973 (0) Googledrive chunked upload: 75.6 % uploaded (3145728)
+0249.352 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0249.361 (0) Google Drive: OK: Archive backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz uploaded in 16.97 seconds
+0249.364 (0) Recording as successfully uploaded: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz (googledrive, more services to follow)
+0249.369 (0) Cloud backup selection (2/3): ftp with instance (1/1)
+0249.374 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-fdced1f57f6cb1a11f74fbe138cbf736)
+0249.377 (0) Error message: No FTP settings were found
+0249.380 (0) Cloud backup selection (3/3): email with instance (1/1)
+0249.384 (0) Beginning dispatch of backup to remote (email)
+0249.387 (0) Email: No email addresses were configured to send to
+0249.390 (0) Email: No email addresses were configured to send to
+0249.395 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0249.398 (0) Number of backup sets in history: 4; groups (db): 1
+0249.400 (0) Examining (for databases) backup set with group_id=0, nonce=0548eea31b5e, datestamp=1716314690 (May 21 2024 18:04:50)
+0249.403 (0) This backup set is the backup set just made, so will not be deleted.
+0249.403 (0) Examining (for databases) backup set with group_id=0, nonce=367bc74b58f2, datestamp=1700130265 (Nov 16 2023 10:24:25)
+0249.403 (0) This backup set (1700130265) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0249.403 (0) Examining (for databases) backup set with group_id=0, nonce=f0ed64281ad0, datestamp=1684701263 (May 21 2023 20:34:23)
+0249.403 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.403 (0) Examining (for databases) backup set with group_id=0, nonce=984848a9814b, datestamp=1684647060 (May 21 2023 05:31:00)
+0249.403 (0) Number of backup sets in history: 4; groups (files): 1
+0249.406 (0) Examining (for files) backup set with nonce=0548eea31b5e, datestamp=1716314690 (May 21 2024 18:04:50)
+0249.406 (0) This backup set is the backup set just made, so will not be deleted.
+0249.408 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0249.411 (0) Examining (for files) backup set with nonce=367bc74b58f2, datestamp=1700130265 (Nov 16 2023 10:24:25)
+0249.411 (0) This backup set (1700130265) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0249.411 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0249.411 (0) Examining (for files) backup set with nonce=f0ed64281ad0, datestamp=1684701263 (May 21 2023 20:34:23)
+0249.411 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.411 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.411 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.411 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.411 (0) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0249.411 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0249.411 (0) Examining (for files) backup set with nonce=984848a9814b, datestamp=1684647060 (May 21 2023 05:31:00)
+0249.411 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0249.413 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0249.420 (0) Resume backup (0548eea31b5e, 0): finish run
+0249.427 (0) Decremented the semaphore (fd) by 1
+0249.432 (0) Semaphore (fd) unlocked
+0249.435 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0249.444 (0) No email will/can be sent - the user has not configured an email address.
+0249.447 (0) The backup has not finished; a resumption is scheduled
+1651.762 (1) Opened log file at time: Tue, 21 May 2024 18:32:22 +0000 on https://localhost/ecom
+1651.766 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.23.25 WP: 6.5.3 PHP: 8.2.4 (apache2handler, Windows NT LAPTOP-NEOCH120 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 90.8M | 112M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1651.770 (1) Free space on disk containing Updraft's temporary directory: 28216.4 MB
+1651.809 (1) Requesting backup semaphore lock (0548eea31b5e)
+1651.817 (1) [Debug] Lock option (updraft_lock_0548eea31b5e, wp_options) was created in the database
+1651.820 (1) [Info] Lock (updraft_lock_0548eea31b5e, wp_options) acquired after initialising the database
+1651.827 (1) Backup run: resumption=1, nonce=0548eea31b5e, file_nonce=0548eea31b5e begun at=1716314690 (1652s ago), job type=backup, previous check-in=249.35s
+1651.830 (1) Long time past since expected resumption time: approx expected=1716315240.5, now=1716316342.2, diff=1101.7
+1651.837 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1651.844 (1) We are in "one shot" mode - no resumptions will be scheduled
+1651.853 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 414, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+1651.859 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1968, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+1651.865 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3588, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+1651.868 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3588, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+1651.877 (1) Checking if we have a zip executable available
+1651.880 (1) Creation of backups of directories: already finished
+1651.884 (1) Saving backup status to database (elements: 2)
+1652.254 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 168, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.258 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 168, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.259 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 291, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.262 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 291, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.262 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 293, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.265 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 293, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\methods\ftp.php)
+1652.275 (1) Database dump (WordPress DB): Creation was completed already
+1652.280 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1652.298 (1) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+1652.302 (1) backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz: db: This file has not yet been successfully uploaded: will queue
+1652.305 (1) Saving backup history. Total backup size: 16.7 MB
+1652.315 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+1652.325 (1) Cloud backup selection (1/3): googledrive with instance (1/1)
+1652.328 (1) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_instance is deprecated (line 564, D:\xamp\htdocs\ecom\wp-content\plugins\updraftplus\backup.php)
+1652.331 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-dd00244cbdd3e42d15ab9ce0bd1e9c21)
+1652.335 (1) Already uploaded to googledrive / s-dd00244cbdd3e42d15ab9ce0bd1e9c21: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-wpcore.zip
+1652.335 (1) Already uploaded to googledrive / s-dd00244cbdd3e42d15ab9ce0bd1e9c21: backup_2024-05-21-1804_Ecommer_Store_0548eea31b5e-db.gz
+1652.335 (1) Cloud backup selection (2/3): ftp with instance (1/1)
+1652.338 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-fdced1f57f6cb1a11f74fbe138cbf736)
+1652.342 (1) Error message: No FTP settings were found
+1652.345 (1) An error condition has occurred for the first time during this job
+1652.353 (1) Cloud backup selection (3/3): email with instance (1/1)
+1652.357 (1) Beginning dispatch of backup to remote (email)
+1652.361 (1) Email: No email addresses were configured to send to
+1652.364 (1) Email: No email addresses were configured to send to
+1652.369 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1652.373 (1) Number of backup sets in history: 4; groups (db): 1
+1652.376 (1) Examining (for databases) backup set with group_id=0, nonce=0548eea31b5e, datestamp=1716314690 (May 21 2024 18:04:50)
+1652.380 (1) This backup set is the backup set just made, so will not be deleted.
+1652.380 (1) Examining (for databases) backup set with group_id=0, nonce=367bc74b58f2, datestamp=1700130265 (Nov 16 2023 10:24:25)
+1652.380 (1) This backup set (1700130265) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+1652.380 (1) Examining (for databases) backup set with group_id=0, nonce=f0ed64281ad0, datestamp=1684701263 (May 21 2023 20:34:23)
+1652.380 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.380 (1) Examining (for databases) backup set with group_id=0, nonce=984848a9814b, datestamp=1684647060 (May 21 2023 05:31:00)
+1652.380 (1) Number of backup sets in history: 4; groups (files): 1
+1652.383 (1) Examining (for files) backup set with nonce=0548eea31b5e, datestamp=1716314690 (May 21 2024 18:04:50)
+1652.383 (1) This backup set is the backup set just made, so will not be deleted.
+1652.386 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1652.389 (1) Examining (for files) backup set with nonce=367bc74b58f2, datestamp=1700130265 (Nov 16 2023 10:24:25)
+1652.389 (1) This backup set (1700130265) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+1652.390 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1652.390 (1) Examining (for files) backup set with nonce=f0ed64281ad0, datestamp=1684701263 (May 21 2023 20:34:23)
+1652.390 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.390 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.390 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.390 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.390 (1) This backup set (1684701263) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1652.390 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1652.390 (1) Examining (for files) backup set with nonce=984848a9814b, datestamp=1684647060 (May 21 2023 05:31:00)
+1652.390 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1652.393 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1652.403 (1) Resume backup (0548eea31b5e, 1): finish run
+1652.409 (1) [Info] Lock option (updraft_lock_0548eea31b5e, wp_options) released
+1652.415 (1) No email will/can be sent - the user has not configured an email address.
+1652.418 (1) The backup attempt has finished, apparently unsuccessfully
